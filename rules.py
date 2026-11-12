@@ -260,7 +260,6 @@ _add("Apps", ["phone_slow_laggy", "old_device"], "Old phones slow down naturally
 # ---------------------------------------------------------------- demo / test scenarios
 SCENARIOS = {
     "📵 SIM died + OTPs": {"symptoms": ["sudden_no_signal", "others_have_signal", "otp_not_requested", "bank_wallet_txn", "phishing_call", "shared_cnic_or_otp"], "age": "1-2 years", "platform": "Android", "expect": "SIM_SWAP"},
-    "👀 Ex knows my location": {"symptoms": ["someone_had_physical_access", "someone_knows_private_info", "hidden_app", "app_wont_uninstall", "battery_drain_fast", "location_on_unknown"], "age": "1-2 years", "platform": "Android", "expect": "STALKERWARE"},
     "📦 Installed 'Wedding.apk'": {"symptoms": ["apk_from_link", "play_protect_off", "unknown_app", "bank_wallet_txn", "otp_not_requested"], "age": "Under 1 year", "platform": "Android", "expect": "FAKE_APK"},
     "🔐 Locked out of Gmail": {"symptoms": ["password_changed_not_me", "recovery_info_changed", "new_login_alert", "reused_passwords", "no_2fa", "friends_got_spam"], "age": "1-2 years", "platform": "iPhone", "expect": "ACCOUNT_HIJACK"},
     "🦠 Pop-ups + data spike": {"symptoms": ["data_spike", "idle_data_use", "unknown_app", "ads_popups", "homescreen_changed", "phone_hot_idle", "battery_drain_fast"], "age": "1-2 years", "platform": "Android", "expect": "MALWARE"},
